@@ -317,8 +317,8 @@ h2 {
 }
 
 .story__photo figcaption .story__age {
-    display: inline-block;
-    margin: 0;
+    display: block;
+    margin: 0.2rem 0 0;
     color: inherit;
     white-space: nowrap;
 }
@@ -456,11 +456,13 @@ h2 {
     }
 
     .hero__note {
-        padding: 0.55rem 0.7rem;
-        border-left: 2px solid var(--gold);
-        color: #d5c8b7;
-        background: rgba(255, 255, 255, 0.08);
-        box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.18);
+        padding: 0.7rem 0.8rem;
+        border: 1px solid rgba(246, 216, 134, 0.55);
+        border-left: 3px solid var(--gold-light);
+        color: #f3e4c9;
+        background: rgba(8, 6, 4, 0.72);
+        box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.35);
+        font-style: normal;
     }
 
     .hero__actions {
