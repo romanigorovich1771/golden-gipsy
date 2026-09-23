@@ -9,4 +9,8 @@ const resetHomeScroll = () => {
 resetHomeScroll();
 window.addEventListener('load', resetHomeScroll);
 
-window.addEventListener('pageshow', resetHomeScroll);
+window.addEventListener('pageshow', () => {
+	resetHomeScroll();
+	window.setTimeout(resetHomeScroll, 100);
+	window.setTimeout(resetHomeScroll, 500);
+});
