@@ -137,6 +137,7 @@ h1 {
 h1 em {
     color: var(--gold-light);
     font-style: normal;
+    white-space: nowrap;
 }
 
 .hero__lead {
